@@ -14,4 +14,5 @@ dotnet ef migrations add InitialIdentity
 # update migrations to database (it will create table in database see database_after_update.png)
 dotnet ef database update
 
+# test running by swagger (see run_debug_swagger.png)
 
