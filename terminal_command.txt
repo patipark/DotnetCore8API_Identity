@@ -1,0 +1,11 @@
+#### install required package for EntityFramework for SqlServer and AspNetCore.Identity ####
+dotnet tool install --global dotnet-ef --version 8.0.13
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 8.0.13
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.13
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.13
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.13
+# upgrade Swashbuckle.AspNetCore from 6.6.2 to 7.2.0
+dotnet remove package Swashbuckle.AspNetCore --version 6.6.2
+dotnet add package Swashbuckle.AspNetCore --version 7.2.0
+
+
