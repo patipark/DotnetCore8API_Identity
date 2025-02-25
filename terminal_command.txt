@@ -11,3 +11,7 @@ dotnet add package Swashbuckle.AspNetCore --version 7.2.0
 # add migrations
 dotnet ef migrations add InitialIdentity
 
+# update migrations to database (it will create table in database see database_after_update.png)
+dotnet ef database update
+
+
